@@ -12,6 +12,7 @@ namespace Examples.System.Net
 {
     public class WebRequestGetExample
     {
+      
         public static void Main()
         {
             ClassLibrary1.Class1 test1 = new ClassLibrary1.Class1();

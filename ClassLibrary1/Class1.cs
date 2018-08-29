@@ -2,9 +2,10 @@
 using System.IO;
 using System.Net;
 
+
 namespace ClassLibrary1
 {
-    public class Class1
+    public class Class1 
     {
         public string GetApi(string url)
         {
