@@ -9,3 +9,6 @@ P:\C#\Projet2\Projet2\Projet2\obj\Debug\netcoreapp2.0\Projet2.AssemblyInfo.cs
 P:\C#\Projet2\Projet2\Projet2\obj\Debug\netcoreapp2.0\Projet2.dll
 P:\C#\Projet2\Projet2\Projet2\obj\Debug\netcoreapp2.0\Projet2.pdb
 P:\C#\Projet2\Projet2\Projet2\obj\Debug\netcoreapp2.0\Projet2.csprojAssemblyReference.cache
+P:\C#\Projet2\Projet2\Projet2\bin\Debug\netcoreapp2.0\ClassLibrary1.dll
+P:\C#\Projet2\Projet2\Projet2\bin\Debug\netcoreapp2.0\ClassLibrary1.pdb
+P:\C#\Projet2\Projet2\Projet2\obj\Debug\netcoreapp2.0\Projet2.csproj.CopyComplete

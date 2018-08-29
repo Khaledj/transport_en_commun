@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Projet2
 {
-    public class DetailLigne
+    public class Ligne
     {
         public string id { get; set; }
         public string name { get; set; }

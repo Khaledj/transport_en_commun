@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v2.0": {
       "Projet2/1.0.0": {
         "dependencies": {
+          "ClassLibrary1": "1.0.0",
           "Json.NET.Web": "1.0.49",
           "Newtonsoft.Json": "11.0.2"
         },
@@ -26,6 +27,11 @@
       "Newtonsoft.Json/11.0.2": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "ClassLibrary1/1.0.0": {
+        "runtime": {
+          "ClassLibrary1.dll": {}
         }
       }
     }
@@ -49,6 +55,11 @@
       "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "path": "newtonsoft.json/11.0.2",
       "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "ClassLibrary1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
