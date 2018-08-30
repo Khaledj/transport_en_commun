@@ -2,18 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "Json.NET.Web/1.0.49": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "8.0.3"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wpa81/Json.NET.Web.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wpa81/Json.NET.Web.dll": {}
-        }
-      },
       "Microsoft.NETCore.App/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -230,16 +218,6 @@
     }
   },
   "libraries": {
-    "Json.NET.Web/1.0.49": {
-      "sha512": "1lhQBN6Oi5IEf2BIhBgqWH3r9uBUitvsoQi0QlC+8IkFYyHq+076OorXbcTxmcXgSsmc66LyoUpqG62BnLOWgg==",
-      "type": "package",
-      "path": "json.net.web/1.0.49",
-      "files": [
-        "json.net.web.1.0.49.nupkg.sha512",
-        "json.net.web.nuspec",
-        "lib/portable45-net45+win8+wpa81/Json.NET.Web.dll"
-      ]
-    },
     "Microsoft.NETCore.App/2.0.0": {
       "sha512": "/mzXF+UtZef+VpzzN88EpvFq5U6z4rj54ZMq/J968H6pcvyLOmcupmTRpJ3CJm8ILoCGh9WI7qpDdiKtuzswrQ==",
       "type": "package",
@@ -734,7 +712,6 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "ClassLibrary1 >= 1.0.0",
-      "Json.NET.Web >= 1.0.49",
       "Microsoft.NETCore.App >= 2.0.0",
       "Newtonsoft.Json >= 11.0.2"
     ]
@@ -784,10 +761,6 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Json.NET.Web": {
-            "target": "Package",
-            "version": "[1.0.49, )"
-          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "[2.0.0, )",
@@ -805,17 +778,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Le package 'Json.NET.Web 1.0.49' a été restauré en utilisant '.NETFramework,Version=v4.6.1' au lieu du framework cible du projet '.NETCoreApp,Version=v2.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
-      "libraryId": "Json.NET.Web",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }

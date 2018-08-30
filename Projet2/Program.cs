@@ -12,13 +12,11 @@ namespace Examples.System.Net
 {
     public class WebRequestGetExample
     {
-      
         public static void Main()
         {
             ClassLibrary1.Class1 test1 = new ClassLibrary1.Class1();
             string lignes = test1.GetApi("http://data.metromobilite.fr/api/linesNear/json?x=5.727770&y=45.185540&dist=600&details=true");
            
-
             ClassLibrary1.Class1 test2 = new ClassLibrary1.Class1();
             string details = test2.GetApi("https://data.metromobilite.fr/api/routers/default/index/routes");
 
